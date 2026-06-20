@@ -31,7 +31,7 @@ model = joblib.load("health_model.pkl")
 le = joblib.load("label_encoder.pkl")
 
 # Sidebar
-st.sidebar.title("🧬 Novagen")
+st.sidebar.title("🧬 Anti-gen")
 
 age = st.sidebar.slider("Age",18,80,35)
 bmi = st.sidebar.slider("BMI",15.0,45.0,25.0)
